@@ -1,4 +1,4 @@
-public class ComputerScienceStudent extends  Student{
+public class ComputerScienceStudent extends  Student {
 
 
     String adress;
@@ -10,15 +10,7 @@ public class ComputerScienceStudent extends  Student{
         this.adress = adress;
     }
 
-    @Override
-    public String getName() {
-        return name;
-    }
 
-    @Override
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getAdress() {
         return adress;
@@ -28,15 +20,7 @@ public class ComputerScienceStudent extends  Student{
         this.adress = adress;
     }
 
-    @Override
-    public int getIdentityCardNumber() {
-        return identityCardNumber;
-    }
 
-    @Override
-    public void setIdentityCardNumber(int identityCardNumber) {
-        this.identityCardNumber = identityCardNumber;
-    }
 
     @Override
     public boolean equals(Object o) {

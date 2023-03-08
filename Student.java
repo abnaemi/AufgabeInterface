@@ -6,6 +6,8 @@ public class Student {
     Student () {
 
     }
+
+
     Student (String name, int identityCardNumber){
         this.name = name;
         this.identityCardNumber = identityCardNumber;
