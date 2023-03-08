@@ -10,7 +10,9 @@ public class ComputerScienceStudent extends  Student {
         this.adress = adress;
     }
 
-
+     public String getNameAndAdress(){
+        return name + " aus "+ adress;
+       }
 
     public String getAdress() {
         return adress;

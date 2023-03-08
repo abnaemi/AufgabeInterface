@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         ComputerScienceStudent studentOne = new ComputerScienceStudent("Toms", 2323, "Hamburg" );
-        Student studentTwo = new Student("Kai", 2333);
+        Student studentTwo = new ComputerScienceStudent("Kai", 2333, "ad");
 
 
         System.out.println(studentOne);
@@ -14,5 +14,7 @@ public class Main {
 
      Citizen mycitizen = new BiologyStudent("Tom", 2);
         System.out.println(mycitizen);
+
+        System.out.println(studentOne.getNameAndAdress());
     }
 }

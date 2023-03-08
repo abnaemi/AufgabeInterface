@@ -1,4 +1,4 @@
-public class Student {
+public abstract class Student {
 
     protected String name;
     protected int identityCardNumber;
@@ -13,6 +13,7 @@ public class Student {
         this.identityCardNumber = identityCardNumber;
     }
 
+    abstract String getNameAndAdress();
     public String getName() {
         return name;
     }
