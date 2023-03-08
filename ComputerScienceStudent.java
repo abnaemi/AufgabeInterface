@@ -12,14 +12,6 @@ public class ComputerScienceStudent implements  Citizen{
         this.identityCardNumber = identityCardNumber;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
-    }
-
-    public void setIdentityCardNumber(int identityCardNumber) {
-        this.identityCardNumber = identityCardNumber;
-    }
-
     @Override
     public String getAdress() {
         return adress;
@@ -29,6 +21,15 @@ public class ComputerScienceStudent implements  Citizen{
     public int getIdentityCardNumber() {
         return identityCardNumber;
     }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    public void setIdentityCardNumber(int identityCardNumber) {
+        this.identityCardNumber = identityCardNumber;
+    }
+
 
     @Override
     public boolean equals(Object o) {
@@ -53,4 +54,5 @@ public class ComputerScienceStudent implements  Citizen{
                 ", identityCardNumber=" + identityCardNumber +
                 '}';
     }
+
 }

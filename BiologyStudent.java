@@ -6,14 +6,6 @@ public class BiologyStudent implements Citizen {
     public BiologyStudent() {
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
-    }
-
-    public void setIdentityCardNumber(int identityCardNumber) {
-        this.identityCardNumber = identityCardNumber;
-    }
-
     public BiologyStudent(String adress, int identityCardNumber) {
         this.adress = adress;
         this.identityCardNumber = identityCardNumber;
@@ -29,6 +21,14 @@ public class BiologyStudent implements Citizen {
     @Override
     public int getIdentityCardNumber() {
         return identityCardNumber;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    public void setIdentityCardNumber(int identityCardNumber) {
+        this.identityCardNumber = identityCardNumber;
     }
 
     @Override
