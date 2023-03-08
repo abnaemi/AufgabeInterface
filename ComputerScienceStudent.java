@@ -6,7 +6,7 @@ public class ComputerScienceStudent extends  Student{
     public ComputerScienceStudent() {
     }
     public  ComputerScienceStudent(String name, int identityCardNumber, String adress){
-        super( "Tom",  34324);
+        super(name, identityCardNumber);
         this.adress = adress;
     }
 
